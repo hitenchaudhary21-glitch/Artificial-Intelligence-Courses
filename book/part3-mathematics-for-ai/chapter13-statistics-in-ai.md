@@ -361,9 +361,9 @@ Regression isn't just an academic exercise — it's the workhorse of predictive 
 
 Multiple regression uses many features at once. A house price model might be:
 
-`Price = 50,000 + 150 × sqft + 10,000 × bedrooms + 25,000 × garage - 5,000 × age`
+`Price = 50,000 + 150 × sqft + 10,000 × bedrooms + 25,000 × garage_spaces - 5,000 × age`
 
-Each coefficient tells you the *marginal effect* of that feature. An extra square foot adds $150 to the predicted price. An extra bedroom adds $10,000. The model learned these weights from data using a process called **least squares** — minimizing the total squared distance between predictions and actual prices.
+Each coefficient tells you the *marginal effect* of that feature. An extra square foot adds $150 to the predicted price. An extra bedroom adds $10,000. Each additional garage space adds $25,000. The model learned these weights from data using a process called **least squares** — minimizing the total squared distance between predictions and actual prices.
 
 **Common Statistical Pitfalls in AI**
 
@@ -489,7 +489,7 @@ a) What is the slope? Interpret it in plain English.
 b) What is the intercept? What does it mean in context?
 c) Predict the sales when the temperature is 75°F.
 d) Predict the sales when the temperature is 95°F.
-e) Would you trust this model to predict sales at -20°F? Why or why not? (Hint: this relates to the concept of **extrapolation**.)
+e) Would you trust this model to predict sales at -20°F? Calculate the prediction — what's wrong with the result? Why does this happen? (Hint: this relates to the concept of **extrapolation** — using a model far outside the range of data it was trained on.)
 
 ### Exercise 5: Spot the Statistical Pitfall
 
