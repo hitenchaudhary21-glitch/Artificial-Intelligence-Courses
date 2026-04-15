@@ -20,7 +20,7 @@
 - [Chapter 2: History of AI](part1-introduction-to-ai/chapter02-history-of-ai.md)
 - [Chapter 3: Types of AI](part1-introduction-to-ai/chapter03-types-of-ai.md)
 - [Chapter 4: Real-World Applications](part1-introduction-to-ai/chapter04-real-world-applications.md)
-- [Chapter 5: AI Mindset & Thinking](part1-introduction-to-ai/chapter05-ai-mindset-and-thinking.md)
+- [Chapter 5: AI Mindset & Thinking](part1-introduction-to-ai/chapter05-ai-mindset.md)
 
 ---
 
